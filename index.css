@@ -1,0 +1,82 @@
+
+@import url('https://fonts.cdnfonts.com/css/bauhausc');
+.body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url('img/4.jpg');
+    background-size: cover;
+    font-family: 'BauhausC', sans-serif;
+}
+.header {
+    background: linear-gradient(to right, beige,rgb(244, 244, 130));
+    padding: 20px;
+    position: relative;
+    font-family: 'BauhausC', sans-serif;
+}
+
+
+.logo {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.menu {
+    font-family: 'BauhausC', sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    background-color: #ddd;
+    color: #000;
+}
+
+.login-container {
+    width: 300px;
+    padding: 16px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 100px;
+    box-shadow: 0px 0px 10px 0px;
+}
+
+.login-container h1 {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #333;
+}
+
+.login-container label {
+    color: #555;
+    font-size: 0.9rem;
+}
+
+.login-container input[type="text"], .login-container input[type="password"] {
+    width: 80%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+.login-container input[type="submit"] {
+    background-color:lightblue;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 90%;
+}
